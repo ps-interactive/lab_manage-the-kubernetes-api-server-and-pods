@@ -28,8 +28,9 @@ metadata:
   name: my-service
 spec:
   selector:
-    app: my-app
+    app: nginx
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
+ 
